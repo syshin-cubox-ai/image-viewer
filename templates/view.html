@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>CUBOX AI EXPO</title>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <style>
+        body {
+            text-align: center;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        #download {
+            font-size: 6rem;
+        }
+    </style>
+</head>
+<body>
+    <img src="{{ img_link }}" alt="Result image"><br><br>
+    <input id="download" type="button" value="다운로드" onclick="location.href='{{ img_link }}'">
+</body>
+</html>
